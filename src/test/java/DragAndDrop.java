@@ -7,7 +7,8 @@ import org.openqa.selenium.interactions.Actions;
 public class DragAndDrop {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/pch39/Downloads/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/Users/pch39/Downloads/chromedriver");
+        new InitialSetUp();
 
         WebDriver driver = new ChromeDriver();
 

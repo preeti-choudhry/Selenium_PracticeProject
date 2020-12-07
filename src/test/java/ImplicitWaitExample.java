@@ -9,7 +9,8 @@ public class ImplicitWaitExample {
     //public static void main(String[] args) throws InterruptedException {
     public static void main(String[] args)  {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/pch39/Downloads/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/Users/pch39/Downloads/chromedriver");
+        new InitialSetUp();
 
         WebDriver driver = new ChromeDriver();
 

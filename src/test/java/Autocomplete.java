@@ -9,7 +9,8 @@ import org.openqa.selenium.By;
 public class Autocomplete {
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/pch39/Downloads/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/Users/pch39/Downloads/chromedriver");
+        new InitialSetUp();
 
         WebDriver driver = new ChromeDriver();
 
